@@ -29,6 +29,9 @@ print(f"You are invited to dinner: {guests[4].title()}")
 print(f"You are invited to dinner: {guests[5].title()}")
 print(f"You are invited to dinner: {guests[6].title()}")
 
+number_of_guests = len(guests)
+print(f"\nThe currect number of invited guests is: {number_of_guests}")
+
 print(f"\nSorry we only have room for two people for dinner")
 removed_guest = guests.pop(6)
 print(f"\nSadly {removed_guest.title()} is no longer invited for dinner")
