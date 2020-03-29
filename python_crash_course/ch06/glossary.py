@@ -4,15 +4,23 @@ glossary = {
     'list': 'A collection of items in a particular order.',
     'loop': 'Work through a collection of items, one at a time.',
     'dictionary': "A collection of key-value pairs.",
+    'key': 'The first item in a key-value pair in a dictionary.',
+    'value': 'An item associated with a key in a dictionary.',
+    'conditional test': 'A comparison between two values.',
+    'float': 'A numerical value with a decimal component.',
+    'boolean expression': 'An expression that evaluates to True or False.',
     }
 
-word = 'string'
-print(f"Word: {word} - {glossary['string']}")
-word = 'comment'
-print(f"\nWord: {word} - {glossary['comment']}")
-word = 'list'
-print(f"\nWord: {word} - {glossary['list']}")
-word = 'loop'
-print(f"\nWord: {word} - {glossary['loop']}")
-word = 'dictionary'
-print(f"\nWord: {word} - {glossary['dictionary']}")
+# word = 'string'
+# print(f"Word: {word} - {glossary['string']}")
+# word = 'comment'
+# print(f"\nWord: {word} - {glossary['comment']}")
+# word = 'list'
+# print(f"\nWord: {word} - {glossary['list']}")
+# word = 'loop'
+# print(f"\nWord: {word} - {glossary['loop']}")
+# word = 'dictionary'
+# print(f"\nWord: {word} - {glossary['dictionary']}")
+
+for word, meaning in glossary.items():
+    print(f"{word.title()}: - {meaning}")
