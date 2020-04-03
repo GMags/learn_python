@@ -3,6 +3,7 @@ def show_messages(messages):
     for message in messages:
         print(message.title())
 
+
 def send_messages(messages, sent_messages):
     print('\n----Send Messages----')
 
