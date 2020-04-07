@@ -1,0 +1,5 @@
+In Python you can write strings
+In Python you can create loops
+In Python you can define dictionarys
+In Python you can write object oriented programs
+In Python you can read files
