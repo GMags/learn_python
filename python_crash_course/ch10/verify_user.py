@@ -7,7 +7,7 @@ def get_saved_username():
 
     try:
         with open(filename, 'r') as f:
-          username = json.load(f)
+            username = json.load(f)
     except FileNotFoundError:
         return None
     else:
